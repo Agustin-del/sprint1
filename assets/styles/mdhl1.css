@@ -1,22 +1,20 @@
+:root{
+  --verdefuerte:114232
+  --verdemedio:87A922
+  --amarillo:FCDC2A
+  --beige:F7F6BB
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: red solid;
 }
 
 body>header{
   background-image:url(/assets/imágenes/fondo.jpg);
-  object-fit: cover;
-}
-
-.titulo{
-  font-size: 3rem;
-}
-
-.fondo{
-}
-
-.logo{
+  background-size: contain;
 }
 
 .subtitulo{
@@ -25,14 +23,9 @@ body>header{
     margin: 0.5rem;
     text-align: center;
 }
-picture{
-    display: block;
-}
 
 nav{
   display: inline-block;
+  width:30hw
 }
 
-#seccion{
-    display: inline-block;
-}

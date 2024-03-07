@@ -68,9 +68,15 @@ picture{
     display: block;
 }
 
-#seccion{
-    display: inline-block;
+nav{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     height:70%;
-    text-align: end;
     width: 80%;
 }

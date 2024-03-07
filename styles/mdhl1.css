@@ -18,5 +18,15 @@
 }
 
 .subtitulo{
-    ...
+    background-color: black;
+}
+
+nav{
+    width: 20%;
+    height: 60%;
+}
+
+.seccion{
+    width: 80%;
+    height:60%
 }

@@ -1,15 +1,19 @@
 :root{
-  --verdefuerte:114232
-  --verdemedio:87A922
-  --amarillo:FCDC2A
-  --beige:F7F6BB
+  verdefuerte: #114232;
+  verdemedio: #87A922;
+  amarillo: #FCDC2A;
+  beige:#F7F6BB;
 }
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: red solid;
+}
+
+header{
+  background-color:#87A922;
+  color: #002518;
 }
 
 body>header{
@@ -17,15 +21,28 @@ body>header{
   background-size: contain;
 }
 
-.subtitulo{
-    background-color: black;
-    color: white;
+main>header{
+    background-color:#87A922;
+    color: #FCDC2A;
     margin: 0.5rem;
     text-align: center;
 }
+#logo{
+  height: 100px;
+
+}
 
 nav{
+  background-color: #FCDC2A;
   display: inline-block;
   width:30hw
 }
 
+main{
+  background-color: #114232;
+  color: #FCDC2A;
+}
+
+#foto{
+  height: 200px;
+}

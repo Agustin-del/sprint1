@@ -9,14 +9,20 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 header{
-  color: #9c493e; 
   background-image:url(/assets/imágenes/fondo.jpg);
   background-size: contain;
   height: 10vw
+}
+
+.titulo{
+  color:#FCDC2A;
+  font-size: 2.5rem;
+  text-shadow: #796a16 2px 2px;
 }
 
 .subtitulo{ 
@@ -25,9 +31,10 @@ header{
     width: 100vw;
     background-color:#4a856e;
     color: #FCDC2A;
-    margin: 0.5rem;
     font-size: 2rem;
     text-align: center;
+    text-shadow: #796a16 2px 2px;
+    border-radius: 5px;
 }
 
 #logo{
@@ -35,10 +42,14 @@ header{
   width: 10%
 }
 
-nav{
+nav>a{
   background-color: #FCDC2A;
+  border-radius: 5px;
   display: inline-block;
-  width:30hw
+  min-width: 10vw;
+  height:5vh;
+  text-align: center;
+  padding:1vh 1vw;
 }
 
 main{

@@ -1,8 +1,8 @@
 :root{
-  --verdefuerte: #114232;
-  --verdemedio: 87A922;
   --amarillo: #FCDC2A;
- --beige:#F7F6BB;
+  --verdeazul: #4a856e
+  --verdefuerte: #114232;
+  --verdemedio: #87A922;
 }
 
 *{
@@ -15,29 +15,33 @@
 
 header{
   background-image:url(/assets/imágenes/fondo.jpg);
-  background-size: contain;
-  height: 10vw
+  background-size:contain;
+  width: 100vw;
+  height: 20vh;
 }
 
 .titulo{
-  color:#FCDC2A;
+  color:var(--amarillo);
   font-size: 2.5rem;
   text-shadow: #796a16 2px 2px;
 }
 
 .subtitulo{ 
-    display: inline-block;
     height: 3vw;
     width: 100vw;
-    background-color: 87A922;
-    color: #FCDC2A;
+    background-color: #4a856e;
+    color: var(--amarillo);
     font-size: 2rem;
     text-align: center;
     text-shadow: #796a16 2px 2px;
     border-radius: 5px;
 }
+
 main{
-  position:relative;
+  background-color: #114232;
+  color: #FCDC2A;
+  min-height: 77vw;
+  position:relative
 }
 
 #logo{
@@ -45,27 +49,39 @@ main{
   height: 22vh;
   position:absolute;
   right:10vw;
-  top: -5vw;
-  border: 6px solid;
-  border-color:#4a856e;
+  top: -4.5vw;
+  border: 6px solid var(--amarillo);
 }
 
 nav>a{
   background-color: #FCDC2A;
-  border-radius: 5px;
+  border-radius: 0.3rem;
   display: inline-block;
   min-width: 10vw;
   height:5vh;
   text-align: center;
   padding:1vh 1vw;
+  margin: 1rem;
+  text-decoration: none;
+  color: #114232;
+}
+nav>a:hover{
+  color: #4a856e;
 }
 
-main{
-  background-color: #114232;
-  color: #FCDC2A;
-  min-height: 87vw;
+nav{
+  max-width: 20vw;
+  margin-top: 6vh;
+  font-size: 1.2rem;
+  float: inline-start;
 }
 
 #foto{
   height: 30vw;
+  width: 55vw;
+  margin-top:8vh;
+}
+#seccion{
+  max-width: 80vw;
+  float: left;
 }

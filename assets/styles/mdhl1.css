@@ -9,27 +9,30 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 header{
-  background-color:#87A922;
-  color: #002518;
-}
-
-body>header{
+  color: #9c493e; 
   background-image:url(/assets/imágenes/fondo.jpg);
   background-size: contain;
+  height: 10vw
 }
 
-main>header{
-    background-color:#87A922;
+.subtitulo{ 
+    display: inline-block;
+    height: 3vw;
+    width: 100vw;
+    background-color:#4a856e;
     color: #FCDC2A;
     margin: 0.5rem;
+    font-size: 2rem;
     text-align: center;
 }
-#logo{
-  height: 100px;
 
+#logo{
+  display: inline-block;
+  width: 10%
 }
 
 nav{
@@ -41,8 +44,9 @@ nav{
 main{
   background-color: #114232;
   color: #FCDC2A;
+  min-height: 87vw;
 }
 
 #foto{
-  height: 200px;
+  height: 30vw;
 }

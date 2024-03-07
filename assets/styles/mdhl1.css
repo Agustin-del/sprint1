@@ -67,12 +67,6 @@ table {
 picture{
     display: block;
 }
-nav{
-    display: inline-block;
-    height: 70%;
-    text-align: left;
-    width: 20%;
-}
 
 #seccion{
     display: inline-block;

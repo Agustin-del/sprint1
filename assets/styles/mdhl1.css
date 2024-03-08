@@ -13,21 +13,21 @@
 }
 
 
-header{
+header img{
   height: 20vh;
   width: 100vw;
 }
-header>img{
-  height: 5px;
-}
+
 .titulo{
   color:var(--amarillo);
   font-size: 2.5rem;
   text-shadow: #796a16 2px 2px;
+  position:absolute
+
 }
 
 .subtitulo{ 
-    height: 3vw;
+    height: 6vh;
     width: 100vw;
     background-color: #4a856e;
     color: var(--amarillo);
@@ -40,7 +40,7 @@ header>img{
 main{
   background-color: #114232;
   color: #FCDC2A;
-  min-height: 77vw;
+  min-height: 74vh;
   position:relative
 }
 
@@ -79,13 +79,14 @@ nav{
 }
 
 #foto{
-  height: 30vw;
+  max-height: 15vh;
   margin-top:8vh;
   width: 55vw;
 }
 #seccion{
   float: left;
   max-width: 80vw;
+  min-height: 60vh;
 }
 footer{
   background-color: #4a856e;

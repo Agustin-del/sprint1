@@ -31,7 +31,7 @@ header>img{
     max-height: 60vh;
     position:absolute;
     left: 101vh;
-    top:1vh;
+    top:-3vh;
 }
 #logo{
     height: 25vh;
@@ -62,7 +62,7 @@ nav{
     display:inline-block;
     font-size: 2rem;
     position:absolute;
-    top:51vh;
+    top:69vh;
     right:6vw;
 }
 
@@ -86,12 +86,13 @@ div article{
     left: 50vw;
     max-width: 50vw;
     position:relative;
+    top: 15vh;
     text-align: center;
 }
 
 footer{
     background-color: var(--rojocamiseta);
-    bottom: -15vw;
+    bottom: -30vw;
     color: var(--rojoclaro);
     position: absolute;
     right:2vw;

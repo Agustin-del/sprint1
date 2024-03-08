@@ -71,3 +71,9 @@ div article{
     position:relative;
     text-align: center;
 }
+footer{
+    background-color: var(--rojocamiseta);
+    position: absolute;
+    right:2vw;
+    bottom: -15vw;
+}

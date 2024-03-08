@@ -56,14 +56,14 @@ main{
 nav>a{
   background-color: #FCDC2A;
   border-radius: 0.3rem;
-  display: inline-block;
-  min-width: 13vw;
-  height:5vh;
-  text-align: center;
-  padding:1vh 1vw;
-  margin: 1rem;
-  text-decoration: none;
   color: #114232;
+  display: inline-block;
+  height:5vh;
+  margin: 1rem;
+  min-width: 13vw;
+  padding:1vh 1vw;
+  text-align: center;
+  text-decoration: none;
 }
 nav>a:hover{
   color: #4a856e;
@@ -72,20 +72,20 @@ a[href="#"]{
   background-color:var(--verdemedio);
 }
 nav{
-  max-width: 20vw;
-  margin-top: 6vh;
-  font-size: 1.2rem;
   float: inline-start;
+  font-size: 1.2rem;
+  margin-top: 6vh;
+  max-width: 20vw;
 }
 
 #foto{
   height: 30vw;
-  width: 55vw;
   margin-top:8vh;
+  width: 55vw;
 }
 #seccion{
-  max-width: 80vw;
   float: left;
+  max-width: 80vw;
 }
 footer{
   background-color: #4a856e;

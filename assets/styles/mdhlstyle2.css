@@ -61,6 +61,14 @@ a{
     color: var(--rojoclaro);
     padding: 2rem;
     text-decoration: none;
+
+}
+a:hover{
+    color: rgb(54, 26, 26);
+}
+
+a[href="#"]{
+    background-color: var(--rojofondo);
 }
 
 div article{
@@ -71,9 +79,11 @@ div article{
     position:relative;
     text-align: center;
 }
+
 footer{
     background-color: var(--rojocamiseta);
+    bottom: -15vw;
+    color: var(--rojoclaro);
     position: absolute;
     right:2vw;
-    bottom: -15vw;
 }

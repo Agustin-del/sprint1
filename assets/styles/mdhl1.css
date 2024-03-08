@@ -7,17 +7,17 @@
 
 *{
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 header{
   background-image:url(/assets/imágenes/fondo.jpg);
   background-size:contain;
-  width: 100vw;
   height: 20vh;
+  width: 100vw;
 }
 
 .titulo{
@@ -57,7 +57,7 @@ nav>a{
   background-color: #FCDC2A;
   border-radius: 0.3rem;
   display: inline-block;
-  min-width: 10vw;
+  min-width: 13vw;
   height:5vh;
   text-align: center;
   padding:1vh 1vw;
@@ -84,4 +84,10 @@ nav{
 #seccion{
   max-width: 80vw;
   float: left;
+}
+footer{
+  background-color: #4a856e;
+  color: #FCDC2A;
+  padding: 3px;
+  text-align: right;
 }

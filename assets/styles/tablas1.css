@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+table {
+    width: 70%;
+    outline: red solid;
+
+}
+tr {
+    outline: red solid;
+}
+
+#aclaracion {
+    text-decoration: underline;
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+    outline:  red solid;
+}

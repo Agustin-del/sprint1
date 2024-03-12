@@ -34,7 +34,7 @@ main {
 
 section {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 #banner {
@@ -115,15 +115,11 @@ a:active {
     font-weight: bold;
 }
 
-#aclaracion {
-    width: 80%;
-    height: 5%;
-    outline: red solid;
+#titulares {
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
     text-align: center;
-}
-
-
-div {
-    width:60%;
-    margin-left: 40px;
+    outline: red solid;
 }

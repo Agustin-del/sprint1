@@ -1,0 +1,16 @@
+
+.subs {
+    font-weight: bold;
+}
+
+#aclaracion {
+    width: 80%;
+    height: 5%;
+    outline: red solid;
+    text-align: center;
+}
+
+
+div {
+    width:60%;
+}

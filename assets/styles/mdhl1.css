@@ -41,7 +41,7 @@ section {
     background-image: url(/assets/imágenes/fondo.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position:  0 -150px;
+    background-position: 0 -150px;
     font-size: 1.6rem;   
     height: 12rem;
     display: flex;

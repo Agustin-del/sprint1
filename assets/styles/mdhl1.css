@@ -113,7 +113,7 @@ a:active {
     border-radius: 20px;
     margin: 1rem;
     margin-bottom: 2rem;
-    border: solid #337a5f 3px;
+    border: solid 2px var(--cremita);
 }
 
 article {

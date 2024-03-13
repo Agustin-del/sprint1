@@ -15,15 +15,15 @@ section{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    margin-left: 15px; 
+    /* margin-left: 15px;  */
     margin-top: 20px;
 }
 ul > li {
     list-style-type: none;
 }
-ol > li {
+li {
     list-style-position: inside;
-    margin: 15px;
+    /* margin: 15px; */
 }
 span {
     font-weight: bold;
@@ -31,10 +31,15 @@ span {
 li > ol {
     list-style-position: inside;
     list-style-type: lower-alpha;
+    margin: 0;
 }
 
 p {
     text-indent: 2rem;
+}
+
+li > p {
+    margin-left: 0px;
 }
 h5 {
     margin-top: 30px;
@@ -46,8 +51,11 @@ li {
 li, h5,p {
     text-align: left;
 }
+h5, ul, ol, p {
+    margin-left: 50px;
+}
 #final {
-    margin-left: 55px;
+    /* margin-left: 55px; */
     list-style:circle;
     list-style-position: inside;
 }

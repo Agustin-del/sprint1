@@ -16,7 +16,7 @@ section{
     flex-wrap: wrap;
     text-align: center;
     /* margin-left: 15px;  */
-    margin-top: 20px;
+    margin-top: 6px;
 }
 ul > li {
     list-style-type: none;

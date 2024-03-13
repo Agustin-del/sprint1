@@ -45,9 +45,7 @@ h5 {
     margin-top: 30px;
     margin-bottom: 20px;
 }
-li {
-    line-height: 150%;
-}
+
 li, h5,p {
     text-align: left;
 }

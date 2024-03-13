@@ -1,6 +1,8 @@
 #aclaracion {
     text-decoration: underline;
     font-style: italic;
+    margin-top: 10px;
+    margin-left: -30px;
 }
 
 p, div {

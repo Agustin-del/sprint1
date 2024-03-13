@@ -53,9 +53,10 @@ section {
     position: relative;
     width: 10.5%;
     right: 10%;
-    top: 30%;
+    top: 35%;
     border: 0.3rem solid var(--amarillo);
     box-shadow: #5f55117a 2px 2px;
+    padding: 5px;
 }
 
 #subtitulo{
@@ -71,6 +72,7 @@ section {
     height: 3.5rem;
     width: 100%;
     margin-bottom: 3rem;
+    padding: 1rem;
 }
 
 nav {
@@ -91,6 +93,7 @@ nav > a {
     display: flex;
     align-items: center;
     justify-content: center;    
+    padding: 2rem;
 }
 
 a[href="#"] {
@@ -139,4 +142,5 @@ footer {
     border-radius: 5px;
     text-align: end;
     margin-right: 4px;
+    margin-top: 2rem;
 } 

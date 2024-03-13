@@ -7,6 +7,7 @@ section{
     display: flex;
     flex-direction: row;
 }
+
 #contenido {
     width: 65%;
     height: fit-content;
@@ -14,15 +15,39 @@ section{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    margin-left: 30px; 
-}
-h5 {
+    margin-left: 15px; 
     margin-top: 20px;
 }
+ul > li {
+    list-style-type: none;
+}
+ol > li {
+    list-style-position: inside;
+    margin: 15px;
+}
+span {
+    font-weight: bold;
+}
+li > ol {
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+}
 
+p {
+    text-indent: 2rem;
+}
+h5 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+li {
+    line-height: 150%;
+}
 li, h5,p {
     text-align: left;
 }
 #final {
     margin-left: 55px;
+    list-style:circle;
+    list-style-position: inside;
 }

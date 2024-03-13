@@ -5,6 +5,7 @@
 #contenido {
     width: 70%;
     margin-top: 20px;
+    margin-left: 15px
 }
 #contenido > h2 {
     text-align: center;

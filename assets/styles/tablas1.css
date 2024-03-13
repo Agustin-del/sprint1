@@ -3,6 +3,9 @@
     font-style: italic;
 }
 
+p, div {
+    margin-left: 45px;
+}
 #contenido {
     width: 70%;
     margin-top: 20px;
@@ -29,6 +32,7 @@ table {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: -30px;
 }
 
 p {

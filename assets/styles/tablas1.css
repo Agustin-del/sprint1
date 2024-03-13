@@ -1,5 +1,6 @@
 #aclaracion {
     text-decoration: underline;
+    font-style: italic;
 }
 
 #contenido {
@@ -12,15 +13,15 @@
     margin-bottom: 20px ;
 }
 
-#contenido >h3 {
+#contenido > h3 {
     margin-bottom: 20px;
 }
 
 table, td, th{
-    border: solid 5px #4a856e;
-    box-shadow: #28473b 0 0 3px 3px;
-    border-collapse: collapse;
-    padding: 3px;
+    /* border: solid 5px #4a856e; */
+    /* box-shadow: #28473b 0 0 3px 3px; */
+    /* border-collapse: collapse; */
+    padding: 10px;
     text-align: center;
 }
 

@@ -12,6 +12,7 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 150%;
+    height: fit-content;
 }
 
 
@@ -33,10 +34,11 @@ main {
 }
 
 p {
-    width: fit-content;
+    width: 80%;
     text-indent: 2rem;
-    text-align: left;
+    text-align: justify;
     margin-left: 20%;
+
 }
 section {
     display: flex;

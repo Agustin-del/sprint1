@@ -31,7 +31,10 @@
                     <a href="#">Registration Form</a>
                     <a href="./contact.html">Contact</a>
                 </nav>
-                <div id ="container">  
+                <div id ="container">
+                    <!-- <div class="sub">
+                        <h3>Registration Form</h3>
+                    </div> -->
                     <form action="./show_data.html" method="get">
                         <fieldset class="personal">
                             <div class ="media">
@@ -118,21 +121,21 @@
                                 <input type="radio" name="school" value="South Elementary" required>South Elementary
                             </label>
                         </fieldset>
-                        <fieldset class="position">
+                        <fieldset class="position" required>
                             <legend>
                                 <h4>What position(s) do you normally play?(check all that apply)</h4>
                             </legend>
                             <label>
-                                <input type="checkbox" name="position" value="Forward" required> Forward
+                                <input type="checkbox" name="position" value="Forward"> Forward
                             </label>
                             <label>
-                                <input type="checkbox" name="position" value="Midfield" required>Midfield
+                                <input type="checkbox" name="position" value="Midfield">Midfield
                             </label>
                             <label>
-                                <input type="checkbox" name="position" value="Defense" required>Defense
+                                <input type="checkbox" name="position" value="Defense">Defense
                             </label>
                             <label>
-                                <input type="checkbox" name="position" value="Goalkeeper" required>Goalkeeper
+                                <input type="checkbox" name="position" value="Goalkeeper">Goalkeeper
                             </label>
                         </fieldset>
                         <fieldset class ="size">
@@ -184,7 +187,7 @@
                                     <input type="text"  id ="date" name="date" required>
                                 </div>
                             </fieldset>
-                        <div>
+                        <div id ="boton">
                             <button>Send</button>
                         </div>
                     </form>

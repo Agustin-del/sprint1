@@ -124,3 +124,31 @@ p {
 #signature {
     width: 35%;
 }
+#boton {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+}
+button {
+    /* display: block; */
+    background-color: #FCDC2A;
+    border-radius: 10px;
+    color: #114232;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover {
+    color: var(--verdeazul);
+}
+
+/* .sub {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 2em;
+} */

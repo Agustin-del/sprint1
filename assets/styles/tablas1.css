@@ -49,3 +49,28 @@ p {
 span {
     font-weight: bold;
 }
+h4 {
+    margin-left:  50px;
+    width: 100%;
+}
+
+#maps {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#greenbay,#yeager,#katzenmaier, #marjorie, #north, #south {
+    display: flex;
+    flex-direction:column;
+    margin-top: 10px;
+}
+#katzenmaier {
+    width: 45%;
+}
+#yeager {
+     width: 45%;
+}
+#north {
+    width: 45%;
+}

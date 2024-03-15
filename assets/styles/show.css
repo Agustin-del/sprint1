@@ -1,3 +1,10 @@
+:root{
+    --amarillo: #FCDC2A;
+    --verdeazul: #4a856e;
+    --verdefuerte: #114232;
+    --verdemedio: #87A922;
+    --cremita: #bbc4a3;
+}
 #container {
     display: flex;
     justify-content: center;
@@ -8,6 +15,6 @@ table{
     border: 3px solid;
 }
 td, tr,th {
-    border: 3px solid;
+    border: 4px solid;
     padding: 4px;
 }

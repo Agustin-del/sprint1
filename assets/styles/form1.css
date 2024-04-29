@@ -1,0 +1,155 @@
+:root{
+    --amarillo: #FCDC2A;
+    --verdeazul: #4a856e;
+    --verdefuerte: #114232;
+    --verdemedio: #87A922;
+    --cremita: #bbc4a3;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-top: 1em;
+}
+div  h4,h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;    
+}
+#container {
+    width: 70%;
+}
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+.personal {
+    display: flex;
+    flex-wrap: wrap;
+}
+.media {
+    width: 49%;
+    }
+.cuarto {
+    width: 20%;
+}
+.necesario {
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+.fila {
+    width: 96%;
+}
+.media > label {
+    width: 20%;
+}
+.school{
+    display: flex;
+    flex-wrap: wrap;
+}
+legend > h4,h5 {
+    width: 100%;
+}
+.school > label {
+    width: 35%;
+}
+input {
+    margin:10px;
+}
+.position {
+    display: flex;
+    flex-wrap: wrap;
+}
+.position > label {
+    width: 35%;
+}
+.size {
+    display: flex;
+    flex-wrap: wrap;
+}
+.size > label {
+    width: 35%;
+}
+.permission {
+    display: flex;
+    flex-wrap: wrap;
+}
+.permission > label {
+    width: 35%;
+    outline: red solid;
+}
+.permission > input {
+    width: 100%;
+}
+.permission > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+p {
+    text-indent: 0;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    width: 80%;
+    text-align: justify;
+}
+#address, #first_name, #last_name, #city, #zip, #birthday, #signature, #date {
+    border: none;
+    background-color: var(--verdefuerte);
+    border-bottom: #FCDC2A solid 2px;
+}
+#address {
+    width: 69%;
+}
+#first_name {
+    width: 55%;
+}
+#last_name {
+    width: 42%;    
+}
+
+#city {
+    width: 84%; 
+}
+#zip {
+    width: 45%;
+}
+#birthday {
+    width: 47%;
+}
+
+#signature {
+    width: 35%;
+}
+#boton {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+}
+button {
+    /* display: block; */
+    background-color: #FCDC2A;
+    border-radius: 10px;
+    color: #114232;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover {
+    color: var(--verdeazul);
+}
+
+
+/* .sub {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 2em;
+} */

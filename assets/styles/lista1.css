@@ -1,0 +1,60 @@
+.subs {
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+#contenido {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: -50px; 
+    margin-top: 6px;
+}
+ul > li {
+    list-style-type: none;
+}
+li {
+    list-style-position: inside;
+    /* margin: 15px; */
+}
+span {
+    font-weight: bold;
+}
+li > ol {
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+    margin: 0;
+}
+
+p {
+    text-indent: 2rem;
+    text-align: justify;
+}
+
+li > p {
+    margin-left: 0px;
+}
+h5 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+li, h5,p {
+    text-align: left;
+}
+h5, ul, ol, p {
+    margin-left: 120px;
+}
+#final {
+    margin-left: 75px;
+    list-style:circle;
+    list-style-position: inside;
+    text-align: justify;
+}
